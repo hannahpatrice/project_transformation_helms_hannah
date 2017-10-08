@@ -1,8 +1,8 @@
 #Project Links
-(https://github.com/hannahpatrice/project_transformation_helms_hannah)[Github]
-(http://hannahpatrice.com/project_transformation_helms_hannah/)[Web Host]
-(https://validator.w3.org/nu/?doc=http%3A%2F%2Fhannahpatrice.com%2Fproject_transformation_helms_hannah%2F)[W3C Validator]
-(https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fhannahpatrice.com%2Fproject_transformation_helms_hannah%2F)[HTML5 Outliner]
+[Github](https://github.com/hannahpatrice/project_transformation_helms_hannah)
+[Web Host](http://hannahpatrice.com/project_transformation_helms_hannah/)
+[W3C Validator](https://validator.w3.org/nu/?doc=http%3A%2F%2Fhannahpatrice.com%2Fproject_transformation_helms_hannah%2F)
+[HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fhannahpatrice.com%2Fproject_transformation_helms_hannah%2F)
 
 ##Resources
 I did not use any resources outside of the lectures and my notes on this assignment.
