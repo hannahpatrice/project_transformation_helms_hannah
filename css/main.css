@@ -103,7 +103,6 @@ a {
 
 #splash {
     width: 960px;
-    height: 300px;
     margin: 0px auto;
 }
 
@@ -112,12 +111,10 @@ a {
 #search {
     float: right;
     width: 280px;
-    height: 60px;
     padding: 20px 0px 0px 0px;
 }
 
 #search form {
-    height: 41px;
     margin: 0;
     padding: 10px 0 0 20px;
 }
@@ -140,7 +137,6 @@ a {
 
 #search-submit {
     width: 50px;
-    height: 22px;
     border: none;
     background: #B9B9B9;
     color: #000000;
@@ -207,9 +203,9 @@ a {
 /* Page */
 
 #page {
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
-    padding: 30px 0px;
+    padding: 3% 0%;
 }
 
 /* Content */
@@ -221,7 +217,6 @@ a {
 }
 
 .post {
-    overflow: hidden;
     margin-bottom: 40px;
     border-bottom: 1px solid #E7EBED;
 }
@@ -290,8 +285,6 @@ a {
 /* Sidebar */
 
 #sidebar {
-    float: left;
-    width: 270px;
     margin: 0px;
     padding: 30px 0px 0px 0px;
 }
@@ -307,33 +300,24 @@ a {
     padding: 0;
 }
 
-#sidebar li ul {
+#sidebar section ul {
     margin: 0px 0px;
-    padding-bottom: 30px;
+    padding-bottom: 3%;
 }
 
-#sidebar li li {
-    line-height: 40px;
+#sidebar section li {
+    line-height: 2.5rem;
     border-bottom: 1px solid #E7EBED;
     margin: 0px 0px;
     border-left: none;
 }
 
-#sidebar li li span {
-    display: block;
-    margin-top: -20px;
-    padding: 0;
-    font-size: 11px;
-    font-style: italic;
-}
-
-#sidebar li li a {
+#sidebar section li a {
     padding: 0px 0px 0px 20px;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
 
 #sidebar h2 {
-    height: 38px;
     padding: 0px 0px 30px 0px;
     letter-spacing: -.5px;
     font-size: 1.8em;
@@ -375,8 +359,7 @@ a {
 /* Three Column Footer Content */
 
 #footer-content {
-    overflow: hidden;
-    width: 1000px;
+    width: 100%;
     margin: 0px auto;
     color: #D6E2F0;
 }
@@ -386,7 +369,6 @@ a {
 }
 
 #footer-bg {
-    overflow: hidden;
     padding: 30px 0px;
     background: #E8E8E8;
 }
@@ -434,7 +416,6 @@ a {
 /* Footer */
 
 #footer {
-    height: 140px;
     margin: 0 auto;
     padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
@@ -456,7 +437,6 @@ a {
 }
 
 #marketing {
-    overflow: hidden;
     margin-bottom: 30px;
     padding: 20px 0px 10px 0px;
     border-top: 1px solid #E7EBED;
@@ -480,7 +460,6 @@ a {
 #marketing .text2 a {
     display: block;
     width: 252px;
-    height: 38px;
     padding: 15px 0px 0px 0px;
     background: url(../img/img07.jpg) no-repeat left top;
     letter-spacing: -2px;
