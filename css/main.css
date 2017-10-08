@@ -11,13 +11,14 @@ html {
 .site-container {
     max-width: 1000px;
 	margin: auto;
+	height: auto;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background: #050505 url(../img/img01.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
+    background: #050505 url(../img/img05.jpg) repeat;
     color: #5B5B5B;
 }
 
@@ -148,7 +149,7 @@ a {
 
 @media all and (min-width: 850px) {
     #menu li {
-        width: calc(100% / 5 - 1rem);
+        width: calc(100% / 5 - 2rem);
     }
 }
 
@@ -239,7 +240,7 @@ a {
 
 #sidebar {
     margin: 0px;
-    padding: 30px 0px 0px 0px;
+    padding: 3%;
 }
 
 #sidebar ul {
@@ -304,53 +305,15 @@ a {
     }
 }
 
-/* Three Column Footer Content */
-
-#footer-content {
-    width: 100%;
-    margin: 0px auto;
-    color: #D6E2F0;
-}
-
-#footer-content a {
-    color: #92A9B6;
-}
-
-#footer-bg {
-    padding: 30px 0px;
-    background: #E8E8E8;
-}
-
-#footer-content h2 {
-    margin: 0px;
-    padding: 0px 0px 20px 0px;
-    letter-spacing: -1px;
-    font-size: 26px;
-    color: #262626;
-}
-
-#footer-content #fbox1 {
-    float: left;
-    width: 300px;
-    margin-right: 50px;
-}
-
-#footer-content #fbox2 {
-    float: left;
-    width: 300px;
-}
-
-#footer-content #fbox3 {
-    float: right;
-    width: 300px;
-}
-
 /* Footer */
 
 #footer {
     margin: 0 auto;
-    padding: 50px 0 15px 0;
+    padding: 0px 0 15px 0;
     font-family: 'Abel', sans-serif;
+    background: #050505 url(../img/img01.jpg) repeat;
+	width: 100%;
+	clear:both;
 }
 
 #footer p {
@@ -358,13 +321,8 @@ a {
     padding-top: 10px;
     letter-spacing: 1px;
     line-height: normal;
-    font-size: 14px;
     text-transform: uppercase;
     text-align: center;
-    color: #5E5E5E;
-}
-
-#footer a {
     color: #5E5E5E;
 }
 
@@ -377,14 +335,4 @@ a {
     margin: 0px auto;
     width: 100%;
     height: auto;
-}
-
-.list-style1 {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-.list-style1 a {
-    color: #7F7F7F;
 }
