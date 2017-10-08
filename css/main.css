@@ -72,7 +72,7 @@ a {
 /* Logo */
 
 #logo {
-    margin: auto;
+	display: inline-block;
     padding: 0;
     color: #FFFFFF;
 	width: 20%;
@@ -81,12 +81,13 @@ a {
 @media all and (min-width: 600px) {
     #logo {
         margin: 0;
-        display: inline-block;
     }
 }
 
 #logo h1 {
     font-size: 3.8em;
+	margin: auto;
+	text-align: center;
 }
 
 #logo h1 a {
@@ -167,15 +168,14 @@ a {
 
 /* Content */
 
-#content {
-    float: right;
-    width: 660px;
-    padding: 0px 0px 0px 0px;
+.post {
+    margin-bottom: 4%;
+    border-bottom: 1px solid #E7EBED;
+	padding: 2%;
 }
 
-.post {
-    margin-bottom: 40px;
-    border-bottom: 1px solid #E7EBED;
+.post + .post {
+    margin-top: 1.25em;
 }
 
 .post .title {
@@ -190,16 +190,16 @@ a {
 }
 
 .post .meta {
-    margin-bottom: 30px;
-    padding: 10px 0px 0px 0px;
+    margin-bottom: 3%;
+    padding: 1%;
     text-align: left;
     font-family: 'Abel', sans-serif;
-    font-size: 16px;
     font-weight: 300;
 }
 
 .post .meta .date {
     float: left;
+	padding-bottom: 1%;
 }
 
 .post .meta .posted {
@@ -207,7 +207,7 @@ a {
 }
 
 .post .entry {
-    padding: 0px 0px 40px 0px;
+    padding: 4% 0;
     text-align: justify;
 }
 
@@ -217,10 +217,8 @@ a {
 }
 
 .more {
-    display: block;
-    float: left;
-    width: 88px;
-    padding: 5px 5px;
+    display: inline-block;
+    padding: 1%;
     margin-right: 10px;
     background: #222222;
     color: #FFFFFF;
@@ -229,10 +227,8 @@ a {
 }
 
 .comments {
-    display: block;
-    float: left;
-    width: 88px;
-    padding: 5px 5px;
+    display: inline-block;
+    padding: 1%;
     background: #222222;
     color: #FFFFFF;
     text-align: center;
@@ -275,7 +271,7 @@ a {
 }
 
 #sidebar h2 {
-    padding: 0px 0px 30px 0px;
+    padding-bottom: 3%;
     letter-spacing: -.5px;
     font-size: 1.8em;
     color: #222222;
@@ -293,6 +289,19 @@ a {
 
 #sidebar a:hover {
     text-decoration: underline;
+}
+
+@media (min-width: 950px) {
+    #content{
+        float: right;
+        margin-left: 1.5em;
+        width: calc(100%/3 *2);
+    }
+
+    #sidebar {
+        float: left;
+        width: calc(100%/3 - 1.5em)
+    }
 }
 
 /* Three Column Footer Content */
