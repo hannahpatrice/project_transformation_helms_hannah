@@ -62,8 +62,11 @@ a {
     color: #5E5E5E;
 }
 
-#wrapper {
+.wrapper {
     background: #FFFFFF url(../img/img05.jpg) repeat;
+	width: 100%;
+    margin: 0 auto;
+    padding: 3% 0%;
 }
 
 .container {
