@@ -5,7 +5,6 @@
     "block-no-empty": true,
     "block-opening-brace-newline-after": "always-multi-line",
     "block-opening-brace-space-before": "always",
-    "color-hex-case": "lower",
     "color-hex-length": "long",
     "color-no-invalid-hex": true,
     "comment-empty-line-before": "always",
